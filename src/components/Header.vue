@@ -2,13 +2,13 @@
 import { ref, onMounted } from 'vue';
 import { initTheme } from '@/composables/theme.js';
 import DarkModeToggle from '@/components/DarkModeToggle.vue';
-import Button from './Button.vue';
 
 const open = ref(false);
 const Links = [
-  { name: 'Home', link: '#' },
-  { name: 'Projects', link: '#' },
-  { name: 'Resume', link: '#' },
+  { name: 'Home', link: '/' },
+  { name: 'Projects', link: '/projects' },
+  { name: 'About Me', link: '/about' },
+  { name: 'Contact', link: '/contact' },
 ];
 onMounted(() => {
   initTheme();
@@ -18,6 +18,9 @@ const darkModeRef = ref();
 
 const menuOpen = () => {
   open.value = !open.value;
+};
+const menuClose = () => {
+  open.value = false;
 };
 const toggle = () => {
   darkModeRef.value.toggleDark();
@@ -56,14 +59,14 @@ const toggle = () => {
         :key="index"
         class="mb-6 md:my-0 md:mx-4"
       >
-        <a
+        <router-link
+          :to="link.link"
           class="text-xl hover:text-custom-purple dark:hover:text-custom-green"
-          :href="link.link"
-        >{{ link.name }}</a>
+          @click="menuClose"
+        >
+          {{ link.name }}
+        </router-link>
       </li>
-      <Button class="md:ml-5">
-        Contact
-      </Button>
       <li class="w-0 md:w-32" />
     </ul>
     <div

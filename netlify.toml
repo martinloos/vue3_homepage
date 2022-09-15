@@ -5,7 +5,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/"
   status = 200
 
 # Opting your Website out of Google's FLoC Network

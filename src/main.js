@@ -8,9 +8,17 @@ import { routes } from '@/routes.js';
 import createPersistedState from 'vuex-persistedstate';
 import { createStore } from 'vuex';
 
+import AOS from 'aos';
+// importing AOS css style globally
+import 'aos/dist/aos.css';
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_BASE_PUBLIC_PATH),
   routes,
+  scrollBehavior() {
+    // always scroll to top
+    return { top: 0 };
+  },
 });
 
 const app = createApp(App);
@@ -40,4 +48,5 @@ const store = createStore({
 
 app.use(router);
 app.use(store);
+app.use(AOS.init());
 app.mount('#app');

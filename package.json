@@ -11,7 +11,10 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "pdfvuer": "^2.0.1",
     "vue": "^3.2.33",
+    "vue-pdf-embed": "^1.1.4",
     "vue-router": "^4.0.15",
     "vuex": "^4.0.2",
     "vuex-persistedstate": "^4.1.0"

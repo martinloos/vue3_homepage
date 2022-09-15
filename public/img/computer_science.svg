@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   sodipodi:docname="computer_science.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.73228114"
+     inkscape:cx="397.38836"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g946"
+       transform="matrix(0.41452838,0,0,0.41452838,1.221778,46.613962)"
+       style="fill:#ffffff">
+	<g
+   id="g944"
+   style="fill:#ffffff">
+		<g
+   id="g942"
+   style="fill:#ffffff">
+			<path
+   d="m 47,108.5 h 161 c 5.523,0 10,-4.477 10,-10 0,-5.523 -4.477,-10 -10,-10 H 47 c -5.523,0 -10,4.477 -10,10 0,5.523 4.477,10 10,10 z"
+   id="path936"
+   style="fill:#ffffff" />
+
+			<path
+   d="m 244,108.5 h 19 c 5.523,0 10,-4.477 10,-10 0,-5.523 -4.477,-10 -10,-10 h -19 c -5.523,0 -10,4.477 -10,10 0,5.523 4.477,10 10,10 z"
+   id="path938"
+   style="fill:#ffffff" />
+
+			<path
+   d="M 492,54 H 10 C 4.477,54 0,58.477 0,64 v 318 c 0,5.523 4.477,10 10,10 h 180 v 36 h -34 c -5.523,0 -10,4.477 -10,10 0,5.523 4.477,10 10,10 h 190 c 5.523,0 10,-4.477 10,-10 0,-5.523 -4.477,-10 -10,-10 h -34 v -36 h 180 c 5.523,0 10,-4.477 10,-10 V 64 c 0,-5.523 -4.477,-10 -10,-10 z M 292,428 h -82 v -36 h 82 z M 482,372 H 20 V 74 h 462 z"
+   id="path940"
+   style="fill:#ffffff" />
+
+		</g>
+
+	</g>
+
+</g>
+  </g>
+</svg>

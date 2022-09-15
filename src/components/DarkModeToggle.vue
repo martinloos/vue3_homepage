@@ -4,7 +4,7 @@
       v-if="theme"
     >
       <img
-        src="../assets/img/bulb_off.svg"
+        src="/img/bulb_off.svg"
         alt="smt"
         style="height: 100%"
       >
@@ -13,7 +13,7 @@
       v-else
     >
       <img
-        src="../assets/img/bulb_on.svg"
+        src="/img/bulb_on.svg"
         alt="smt"
       >
     </div>
